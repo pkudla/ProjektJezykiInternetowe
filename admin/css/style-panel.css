@@ -1,0 +1,161 @@
+body {
+    background: #F1F1F1;
+    margin: 0;
+    font-family: sans-serif;
+}
+.menu-left {
+    float: left;
+    background: #23282D;
+    height: 100vh;
+    width:250px;
+}
+.menu-left ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+.menu-left ul li {
+    display: block;
+    border-bottom: 2px solid #30363D;
+    padding:0 20px;
+}
+.menu-left ul li:hover  {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.50;
+    -khtml-opacity: 0.50;
+    opacity: 0.50;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.menu-left ul li i {
+    display: inline-block;
+    float: left;
+    color:#EEEEEE;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+.menu-left ul li a {
+    color:#EEEEEE;
+    text-decoration: none; 
+    padding: 5px 0;
+    display: block;
+    font-size: 17px;
+}
+.menu-left ul span {
+	font-size: 20px;
+	color:#EEEEEE;
+	padding: 0 20px 20px 20px;
+	display: block;
+}
+.right {
+	float:left;
+	width:calc(100% - 250px);
+}
+a.new {
+    color:#EEEEEE;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #23282D;
+    margin:10px 0 10px 10px;
+}
+a.new i {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+.right a.back {
+    color:#EEEEEE;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #23282D;
+    margin:10px 0 10px 10px;
+}
+.right a.back i {
+    margin-right: 8px;
+}
+.right a.back:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.right .formularz {
+    margin: 10px;
+}
+.right .formularz label {
+    color: #000;
+    font-size: 15px;
+}
+.right .formularz span.error {
+    color:red;
+    font-size: 13px;
+}
+.right .formularz label {
+    display: inline-block;
+    width: 20%;
+}
+.right .formularz input[type=text] {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #EEEEEE;
+}
+.right .formularz input[type=submit] {
+    color:#EEEEEE;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #23282D;
+    cursor: pointer;
+}
+.right .formularz input[type=submit]:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: 0.75;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.right .information .box {
+	border-radius:10px;
+	padding: 20px;
+	margin: 10px;
+	background:#23282D;
+}
+.right .information .box h1 {
+	margin:0;
+	color:#EEEEEE;
+	font-size:20px;
+	display:inline-block;
+}
+.right .information .box .choice {
+	float:right;
+	margin-top: 3px;
+}
+.right .information .box .choice a {
+	background: #EEEEEE;
+	padding: 10px;
+	border-radius:10px;
+	text-decoration: none;
+	color: #23282D;
+}
+.right .information .box .choice a:first-child {
+	margin-right: 6px;
+}
